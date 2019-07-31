@@ -1,0 +1,46 @@
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+input[type=date]::-webkit-inner-spin-button, 
+input[type=date]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+/*
+  1.Preloader
+  ============================*/
+  #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 9999999;
+    right: 0;
+    bottom: 0;
+}
+#preloader-status {
+    height: 210px;
+    width: 210px;
+    background: url(../images/preload.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+    position: absolute;
+    left: 50%;
+    top: 50%;	
+    z-index: 999;
+}
+.scan-textarea{
+    width:500px !important;
+    height:250px !important;
+}
+textarea {
+    resize: none;
+  }

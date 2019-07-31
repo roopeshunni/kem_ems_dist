@@ -1,0 +1,588 @@
+#approval{
+	color: white !important;
+}
+#head-title{
+	color: white;
+}
+
+#Dashboard_view{
+        padding-top: 70px;
+    }
+
+
+ .shadow {
+        position: relative;
+        -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
+    /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    
+    .zoom {
+        transition: transform .2s;
+        /* Animation */
+    }
+#toolbar{
+display:none !important;}
+    
+    .zoom:hover {
+        transform: scale(1.1);
+        /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+    
+    .card {
+        padding-top: 20px;
+        margin: 5px 0 20px 0;
+        background-color: rgba(214, 224, 226, 0.2);
+        border-top-width: 0;
+        border-bottom-width: 2px;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        height: 160px;
+    }
+    
+    .card .card-heading {
+        padding: 0 20px;
+        margin: 0;
+    }
+    
+    .card .card-heading.simple {
+        font-size: 20px;
+        font-weight: 300;
+        color: #777;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    
+    .card .card-heading.image img {
+        display: inline-block;
+        width: 46px;
+        height: 46px;
+        margin-right: 15px;
+        vertical-align: top;
+        border: 0;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+    }
+    
+    .card .card-heading.image .card-heading-header {
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    .card .card-heading.image .card-heading-header h3 {
+        margin: 0;
+        font-size: 14px;
+        line-height: 16px;
+        color: #262626;
+    }
+    
+    .card .card-heading.image .card-heading-header span {
+        font-size: 12px;
+        color: #999999;
+    }
+    
+    .card .card-body {
+        padding: 0 20px;
+        margin-top: 20px;
+    }
+    
+    .card .card-media {
+        padding: 0 20px;
+        margin: 0 -14px;
+    }
+    
+    .card .card-media img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .card .card-actions {
+        min-height: 30px;
+        padding: 0 20px 20px 20px;
+        margin: 20px 0 0 0;
+    }
+    
+    .card .card-comments {
+        padding: 20px;
+        margin: 0;
+        background-color: #f8f8f8;
+    }
+    
+    .card .card-comments .comments-collapse-toggle {
+        padding: 0;
+        margin: 0 20px 12px 20px;
+    }
+    
+    .card .card-comments .comments-collapse-toggle a,
+    .card .card-comments .comments-collapse-toggle span {
+        padding-right: 5px;
+        overflow: hidden;
+        font-size: 12px;
+        color: #999;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    
+    .card-comments .media-heading {
+        font-size: 13px;
+        font-weight: bold;
+    }
+    
+    .card.people {
+        position: relative;
+        display: inline-block;
+        width: 170px;
+        height: 300px;
+        padding-top: 0;
+        margin-left: 20px;
+        overflow: hidden;
+        vertical-align: top;
+    }
+    
+    .card.people:first-child {
+        margin-left: 0;
+    }
+    
+    .card.people .card-top {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: inline-block;
+        width: 170px;
+        height: 150px;
+        background-color: #ffffff;
+    }
+    
+    .card.people .card-top.green {
+        background-color: #53a93f;
+    }
+    
+    .card.people .card-top.blue {
+        background-color: #427fed;
+    }
+    
+    .card.people .card-info {
+        position: absolute;
+        top: 150px;
+        display: inline-block;
+        width: 100%;
+        height: 101px;
+        overflow: hidden;
+        background: #ffffff;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    .card.people .card-info .title {
+        display: block;
+        margin: 8px 14px 0 14px;
+        overflow: hidden;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 18px;
+        color: #404040;
+    }
+    
+    .card.people .card-info .desc {
+        display: block;
+        margin: 8px 14px 0 14px;
+        overflow: hidden;
+        font-size: 12px;
+        line-height: 16px;
+        color: #737373;
+        text-overflow: ellipsis;
+    }
+    
+    .card.people .card-bottom {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: inline-block;
+        width: 100%;
+        padding: 10px 20px;
+        line-height: 29px;
+        text-align: center;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    .card.hovercard {
+        position: relative;
+        padding-top: 0;
+        overflow: hidden;
+        text-align: center;
+        background-color:#024e7a;
+        color: white;
+    }
+    #login-content{
+    	margin-top: 60px;
+    	
+    }
+    #sign-title{
+    	font-size: 20px;
+    }
+    .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+  
+   color: grey;
+   padding: 10px;
+   text-align: center;
+}
+    .card.hovercard .cardheader {
+        background: url("http://lorempixel.com/850/280/nature/4/");
+        background-size: cover;
+        height: 135px;
+    }
+    
+    .card.hovercard .avatar {
+        position: relative;
+        top: -50px;
+        margin-bottom: -50px;
+    }
+    
+    .card.hovercard .avatar img {
+        width: 100px;
+        height: 100px;
+        max-width: 100px;
+        max-height: 100px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        border: 5px solid rgba(255, 255, 255, 0.5);
+    }
+    
+    .card.hovercard .info {
+        padding: 4px 8px 10px;
+    }
+    
+    .card.hovercard .info .title {
+        margin-bottom: 4px;
+        font-size: 15px;
+        line-height: 1.5;
+        overflow: hidden;
+        color: white;
+        vertical-align: middle;
+        font-weight: bold;
+    }
+    
+    .card.hovercard .info .desc {
+        overflow: hidden;
+        font-size: 12px;
+        line-height: 20px;
+        color:white;
+        text-overflow: ellipsis;
+    }
+    
+    .card.hovercard .bottom {
+        padding: 0 20px;
+        margin-bottom: 17px;
+    }
+    
+    .bottom-shadow {
+        -webkit-box-shadow: 0 8px 6px -6px black;
+        -moz-box-shadow: 0 8px 6px -6px black;
+        box-shadow: 0 8px 6px -6px black;
+    }
+    
+    .shadow {
+        position: relative;
+        -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    }
+    /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+    
+    .gradient {
+        background-image: linear-gradient( to right, white, #0c3270);
+    }
+.effect{
+    cursor: pointer;border:1px solid #103350;}
+
+    .titile_batch{
+        padding-top: 26px;
+        font-size: 15px;
+    }
+.titile_batch a{
+    color: white;
+    font-size: 19px;
+}
+#my_prof{
+    font-size: 26px !important;
+    color: black;
+    text-align: center;
+}
+
+.own_color{
+        background:#011e40 !important;
+
+    }
+    #detail_table th,tr{
+        font-size: 15px !important;
+    }
+    .teacher_img{
+        padding:5px;
+        padding-top: 15px;
+    }
+    #Dashboard_view{
+        padding-top: 70px;
+    }
+    #main_title{
+        text-align: center;
+        padding-top: 25px;
+        color: white;
+
+    }
+    #main_title_holder{
+        background-image: linear-gradient(to right, #011e40 , #337ab7);
+        -webkit-box-shadow: 0px 3px 8px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 3px 8px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 3px 8px -1px rgba(0,0,0,0.75);
+border-bottom:1px solid white;
+    }
+
+
+/*25-02-2019*/
+    #hidden_element{
+        visibility: hidden;
+    }
+#labels{
+	color: black;
+	font-weight: bold;
+	opacity: 0.5;
+}
+
+#login-body{
+	  background-image: linear-gradient(to right, white, #b3e6f5);
+}
+#first-content{
+	margin-top: 25px;
+    cursor: pointer;
+}
+#shadows{
+	-webkit-box-shadow: 10px 16px 49px -16px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 16px 49px -16px rgba(0,0,0,0.75);
+box-shadow: 10px 16px 49px -16px rgba(0,0,0,0.75);
+}
+
+
+ #inputEmail{
+
+border-radius: 6px;
+ }
+
+#inputPassword{
+border-radius: 6px;	
+}
+
+#help-text{
+
+
+	padding: 5px;
+}
+#help-text-holder label{
+color: #5bc0de;
+
+}
+#help-text-holder{
+	border-left: 1px solid grey;
+}
+ .affix {
+   
+    position:fixed;
+    width: 63%;
+}
+@media only screen and (max-width: 1000px) {
+ #help-text-holder{
+	border-left: 0px;
+  }
+}
+/*@media only screen and (min-width: 400px) {
+ #pdf-holder{
+    width: 50px !important;height: 50px !important;
+  }
+}*/
+  general styles
+*/
+.center-block-horiz {
+   margin-left: auto !important;
+   margin-right: auto !important;
+ }
+.set-margin-cicis-menu-to-go {
+  margin: 20px;
+}
+.set-padding-cicis-menu-to-go {
+  padding: 20px;
+}
+.set-border-cicis-menu-to-go {
+   border: 5px inset #4f4f4f;
+}
+set-box-shadow-cicis-menu-to-go {
+  -webkit-box-shadow: 4px 4px 14px #4f4f4f;
+     -moz-box-shadow: 4px 4px 14px #4f4f4f;
+          box-shadow: 4px 4px 14px #4f4f4f;
+}
+  
+/*
+** Style the iframe
+** =========================
+*/
+/*
+    css commmon to all iframes
+*/
+.responsive-wrapper {
+  position: relative;
+  height: 0;    /* gets height from padding-bottom */
+  overflow: hidden;
+  /* put following styles (necessary for overflow and 
+     scrolling handling) inline in .embed-responsive-element-wrapper around iframe because not stable in CSS
+    -webkit-overflow-scrolling: touch; 
+                      overflow: auto; */
+}
+.responsive-wrapper img,
+.responsive-wrapper object,
+.responsive-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+   
+  border-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*
+    css particular to this iframe
+*/
+
+#Iframe-Cicis-Menu-To-Go {
+  max-width: 866.67px;
+  max-height: 400px;
+  overflow: hidden;
+}
+/*
+   padding-bottom = h/w as %
+*/
+.responsive-wrapper-padding-bottom-90pct {
+  padding-bottom: 90%;
+}
+
+#box-styles{
+    border-radius: 30px;background-color: #ccffff;
+}
+
+
+
+
+
+
+.scrollable-panel{
+      height:470px;
+      overflow-y:scroll;
+      width:100%;
+      }
+
+.question-label{
+    border: 0px;
+}
+
+
+
+/*TABLES*/
+
+@media only screen and (max-width: 800px) {
+    
+    /* Force table to not be like tables anymore */
+    #no-more-tables table, 
+    #no-more-tables thead, 
+    #no-more-tables tbody, 
+    #no-more-tables th, 
+    #no-more-tables td, 
+    #no-more-tables tr { 
+        display: block; 
+    }
+ 
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #no-more-tables thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+ 
+    #no-more-tables tr { border: 1px solid #ccc; }
+ 
+    #no-more-tables td { 
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee; 
+        position: relative;
+        padding-left: 50%; 
+        white-space: normal;
+        text-align:left;
+    }
+ 
+    #no-more-tables td:before { 
+        /* Now like a table header */
+        position: absolute;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%; 
+        padding-right: 10px; 
+        white-space: nowrap;
+        text-align:left;
+        font-weight: bold;
+    }
+ 
+    /*
+    Label the data
+    */
+    #no-more-tables td:before { content: attr(data-title); }
+}
+/*tables*/
+
+
+#no-more-tables thead tr th{
+
+color:#337ab7;
+
+}
+
+#table-contents{
+    padding:0px 15px;
+}
+.state-icon {
+    left: -5px;
+}
+.list-group-item-primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(66, 139, 202);
+}
+
+/* DEMO ONLY - REMOVES UNWANTED MARGIN */
+.well .list-group {
+    margin-bottom: 0px;
+}
+
+.scrollable-lists{
+   
+      overflow-y:scroll;
+    height: 150px;
+      }
+.titile_batch a:hover{
+	text-decoration:none;
+}
